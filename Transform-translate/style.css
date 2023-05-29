@@ -1,0 +1,19 @@
+.shadow {
+    background: rgb(223, 87, 155);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.circle {
+    background: #181616;
+    background: radial-gradient(circle farthest-corner at 24.7% 28.8%, 
+    rgba(247, 183, 29, 1) 1.9%, 
+    rgba(253, 239, 150, 1) 97.7%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.circle:hover {
+    transform: translate(20px, -20px);
+}
