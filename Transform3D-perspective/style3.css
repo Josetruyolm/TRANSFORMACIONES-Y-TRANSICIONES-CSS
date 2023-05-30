@@ -1,0 +1,19 @@
+.container {
+    position: relative;
+    background: lawngreen;
+    height: 200px;
+    width: 200px;
+    border: 5px solid fuchsia;
+    perspective: 200px;
+}
+
+.item {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: lawngreen;
+    border: 3px solid fuchsia;
+    opacity: 0.5;
+    transform-style: preserve-3d;
+    transform: rotateX(45deg);
+}
