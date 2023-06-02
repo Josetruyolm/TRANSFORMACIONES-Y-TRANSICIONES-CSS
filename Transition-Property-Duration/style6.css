@@ -1,0 +1,30 @@
+.container {
+    background: greenyellow;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-top: 20%;
+   
+}
+.container:hover .box{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.box {
+    width: 200px;
+    height: 200px;
+}
+.box1 {
+    background: magenta;
+    transition: transform 300ms;
+}
+.box2 {
+    background: sandybrown;
+    transition: transform 3s;
+}
+.box3 {
+    background: salmon;
+    transition: transform 1s;
+}
