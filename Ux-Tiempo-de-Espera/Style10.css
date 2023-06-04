@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: aquamarine;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    gap: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: blue;
+}
+.nav li ul {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 400ms;
+    transition-delay: 300ms;
+}
+.nav li:hover > ul {
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 300ms;
+}
+.nav li ul li {
+position: relative;
+}
+.nav li ul li {
+    right: -80px;
+}

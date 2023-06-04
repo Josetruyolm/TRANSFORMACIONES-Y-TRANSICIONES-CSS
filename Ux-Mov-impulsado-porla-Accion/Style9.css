@@ -1,0 +1,12 @@
+div {
+    background: aqua;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: w-resize;
+    transition: transform 1s linear;
+}
+div:hover {
+    transform: translateX(200px);
+    transition: transform 1s linear;
+}
