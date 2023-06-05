@@ -1,0 +1,23 @@
+button {
+    background: maroon;
+    width: 150px;
+    height: 45px;
+}
+
+.better {
+    will-change: transform;
+    transition: transform 500ms;
+}
+
+.better:hover {
+    transform: translateY(5px);
+}
+
+.worst {
+    transition: margin-top 500ms;
+}
+
+.worst:hover {
+    will-change: margin-top;
+    margin-top: 5px;
+}
